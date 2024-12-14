@@ -9,6 +9,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'custom-bg': "url('../../../public/locationplaceholder.png')"
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

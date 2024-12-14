@@ -1,31 +1,44 @@
+import Image from 'next/image'
+import logoplaceholder from "../../../public/logoplaceholder.png"
+import backgroundImage from "../../../public/locationplaceholder.png"
+import Link from 'next/link'
+
 export default function Navbarz() {
     return (
         <>
-            <nav className="bg-gray-700 items-center justify-end flex">
-                <div className="flex justify-end">
-                    <p className="mr-4">
-                        2606 Bridge Blvd SW, Albuquerque, NM 87105
-                    </p>
-                    <p>
-                        505-639-2121
-                    </p>
+            <nav className="bg-gray-700 items-center grid grid-rows-2 bg-custom-bg bg-no-repeat bg-cover">
+                <div className="flex justify-center">
+                    <Image
+                        src={logoplaceholder} alt="Logo placeholder image" className=" h-24 w-2/3 ml-4 mt-10 pt-4 rounded-3xl"
+                    />
                 </div>
-            </nav>
-            <nav className="bg-black border-b-2 border-red-700">
-                <div className="flex">
-                    <button>
-                        Home
-                    </button>
-                    <button>
+                <div className="grid justify-end mt-14 font-bold">
+                        <p className="mr-4 m-0">
+                            2606 Bridge Blvd SW,<br/> Albuquerque, NM 87105
+                        </p>
+                        <p className=" mr-4">
+                            <Link href="tel:+15056392121" className="text-blue-500 hover:text-blue-800">
+                                505-639-2121
+                            </Link>
+                        </p>
+                </div>
+        </nav>
+    <nav className="bg-black border-b-2 border-red-700 p-6">
+        <div className="flex gap-8 text-red-700 flex justify-center">
+
+            <button className="text-3xl">
+                Home
+            </button>
+                    <button className="text-3xl">
                         Inventory
                     </button>
-                    <button>
+                    <button className="text-3xl">
                         Holder1
                     </button>
-                    <button>
+                    <button className="text-3xl">
                         Holder2
                     </button>
-                    <button>
+                    <button className="text-3xl">
                         Fly high and say hi.
                     </button>
                 </div>
