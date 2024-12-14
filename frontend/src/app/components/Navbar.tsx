@@ -24,24 +24,30 @@ export default function Navbarz() {
                 </div>
         </nav>
 
-    <nav className="bg-slate-900 border-b-2 border-l-2 border-r-2 rounded-b-lg border-red-900 p-4">
-        <div className="flex gap-8 text-red-700 flex justify-center">
-            <button className="text-3xl">
-                Home
-            </button>
-            <button className="text-3xl">
-                Inventory
-            </button>
-            <button className="text-3xl">
-                Holder1
-            </button>
-            <button className="text-3xl">
-                Holder2
-            </button>
-            <button className="text-3xl">
-                Fly high and say hi.
-            </button>
+    <nav className="bg-gray-500 border-b-2 border-l-2 border-r-2 rounded-b-lg border-red-900 p-4">
+        <div className="">
+            <div className="flex gap-8 text-red-500 flex justify-center">
+                <button className="text-3xl">
+                    Home
+                </button>
+                <button className="text-3xl">
+                    Inventory
+                </button>
+                <button className="text-3xl">
+                    Basket
+                </button>
+                <button className="text-3xl">
+                    Basket
+                </button>
+                <button className="text-3xl">
+                    Fly high and say hi.
+                </button>
+            </div>
+            <div>
+
+            </div>
         </div>
+
     </nav>
         </>
     )
