@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function Navbarz() {
     return (
         <>
-            <nav className="bg-gray-700 items-center grid grid-rows-2 bg-custom-bg bg-no-repeat bg-cover">
+            <nav className="items-center grid grid-rows-2 bg-custom-bg bg-no-repeat bg-cover">
                 <div className="flex justify-center">
                     <Image
                         src={logoplaceholder} alt="Logo placeholder image" className=" h-24 w-2/3 ml-4 mt-10 pt-4 rounded-3xl"
@@ -23,9 +23,8 @@ export default function Navbarz() {
                         </p>
                 </div>
         </nav>
-    <nav className="bg-black border-b-2 border-red-700 p-6">
+    <nav className="bg-slate-900 border-b-2 border-l-2 border-r-2 rounded-b-lg border-red-900 p-4">
         <div className="flex gap-8 text-red-700 flex justify-center">
-
             <button className="text-3xl">
                 Home
             </button>
