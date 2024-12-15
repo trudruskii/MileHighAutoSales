@@ -45,7 +45,7 @@ export default function Navbarz() {
                         2606 Bridge Blvd SW,<br/> Albuquerque, NM 87105
                     </p>
                     <p className="mr-4">
-                        <Link href="tel:+15056392121" className="text-blue-500 hover:text-blue-800">
+                        <Link href="tel:+15056392121" className="text-black hover:text-red-900">
                             505-639-2121
                         </Link>
                     </p>
