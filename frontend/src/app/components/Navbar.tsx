@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import logoplaceholder from "../../../public/logoplaceholder.png"
-import ownerplaceholder from "../../../public/ownerplaceholder.png"
+import mapplaceholder from "../../../public/mapplaceholder.jpg"
 import Link from 'next/link'
 
 export default function Navbarz() {
@@ -42,17 +42,19 @@ export default function Navbarz() {
                 </nav>
             </div>
 
-            <div className="bg-red-900 border border-black border-4 w-full h-36 flex justify-between">
+            <div className="bg-black border-t-gray-400 border-b-gray-400 border-l-red-900 border-r-red-900 border-t-[1px] border-b-[1px] border-l-[3px] border-r-[3px] w-full h-36 flex justify-between">
                 <Image src={logoplaceholder} alt="Logo placeholder image"
                        className="h-32 my-auto mx-12 py-2 rounded-3xl"/>
-                <div className="relative flex flex-col my-auto justify-center items-center text-gray-400">
-                    <p className="mr-12 mt-4">
-                        <Link href="https://www.google.com/maps/place/2606+Bridge+Blvd+SW,+Albuquerque,+NM+87105/@35.0667321,-106.6981683,17z/data=!3m1!4b1!4m6!3m5!1s0x87220d138d6bef69:0xe0e80640b3dc0750!8m2!3d35.0667277!4d-106.695588!16s%2Fg%2F11cp9l52rt?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" className="hover:text-white">2606 Bridge Blvd SW,<br/> Albuquerque, NM 87105</Link>
-                        <br/><Link href="tel:+15056392121" className="hover:text-white">
+                <div className="flex flex-row gap-10">
+                    <Image src={mapplaceholder} alt="Map placeholder image" className="h-28 w-32 my-auto"/>
+                    <div className="relative flex flex-col my-auto justify-center items-center text-gray-400">
+                        <p className="mr-12 mt-4">
+                            <Link href="https://www.google.com/maps/place/2606+Bridge+Blvd+SW,+Albuquerque,+NM+87105/@35.0667321,-106.6981683,17z/data=!3m1!4b1!4m6!3m5!1s0x87220d138d6bef69:0xe0e80640b3dc0750!8m2!3d35.0667277!4d-106.695588!16s%2Fg%2F11cp9l52rt?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" className="hover:text-white">2606 Bridge Blvd SW,<br/> Albuquerque, NM 87105</Link>
+                            <br/><Link href="tel:+15056392121" className="hover:text-white">
                             505-639-2121
                         </Link>
-                    </p>
-                    <span className="flex flex-row gap-1 mr-[88px] py-2">
+                        </p>
+                        <span className="flex flex-row gap-1 mr-[88px] py-2">
                         <Link href="https://www.youtube.com">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0
                             24 24" width="24" height="24">
@@ -119,7 +121,9 @@ export default function Navbarz() {
                             </svg>
                         </Link>
                     </span>
+                    </div>
                 </div>
+
             </div>
 
         </>
