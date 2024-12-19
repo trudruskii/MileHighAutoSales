@@ -42,9 +42,12 @@ export default function Navbarz() {
                 </nav>
             </div>
 
-            <div className="bg-black border-t-gray-400 border-b-gray-400 border-l-red-900 border-r-red-900 border-t-[1px] border-b-[1px] border-l-[3px] border-r-[3px] w-full h-36 flex justify-between">
-                <Image src={logoplaceholder} alt="Logo placeholder image"
-                       className="h-32 my-auto mx-12 py-2 rounded-3xl"/>
+            <div className="bg-black border-t-gray-400 border-b-gray-400 border-l-red-900 border-r-red-900 border-t-[1px] border-b-[1px] border-l-[3px] border-r-[3px] w-full h-36 flex justify-between items-center">
+                <h1 className="text-red-700 text-[8rem] animate-pulseText ml-16">
+                    Mile High Auto Sales
+                </h1>
+                {/*<Image src={logoplaceholder} alt="Logo placeholder image"*/}
+                {/*       className="h-32 my-auto mx-12 py-2 rounded-3xl"/>*/}
                 <div className="flex flex-row gap-10">
                     <Image src={mapplaceholder} alt="Map placeholder image" className="h-28 w-32 my-auto"/>
                     <div className="relative flex flex-col my-auto justify-center items-center text-gray-400">
