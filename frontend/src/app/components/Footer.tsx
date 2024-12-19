@@ -3,11 +3,10 @@ import Link from "next/link";
 export default function Footer(){
     return(
         <>
-            <footer className="bg-gray-300 text-red-700 py-4">
-                <div className="container mx-auto text-left flex">
-                    <p>Created by Spencer Tech Toolkit 2024</p>
-                    <span className="absolute right-8 font-semibold text-blue-500 hover:text-blue-700"><Link href="/">Terms and Agreements</Link></span>
-
+            <footer className="bg-gray-300 py-4">
+                <div className="container mx-auto text-left grid grid-cols-2">
+                    <div className="text-sm text-start items-end justify-end text-black">Created by Spencer Tech Toolkit 2024</div>
+                    <div className="font-semibold text-black hover:text-red-900 text-right text-sm"><Link href="/">Please read the<br/>Terms and Agreements</Link></div>
                 </div>
             </footer>
         </>
