@@ -8,8 +8,8 @@ export default function Home() {
   return (
       <>
           <div className="border-black border-l-[3px] border-r-[3px]">
-              <div className="grid grid-cols-2 border-t border-red-900 pt-8">
-                  <p className="mx-auto">Whatever result of the sort prints here.</p>
+              <div className="grid grid-cols-2 border-t border-red-900 pt-12">
+                  <p className="mx-auto text-lg">Results: Whatever result of the sort prints here.</p>
                   <div className="flex justify-end w-full">
                       <button className="border border-gray-400 rounded-xl mr-24 p-1.5">
                           Sort by SelectTemplate
@@ -18,7 +18,8 @@ export default function Home() {
               </div>
 
               <div className="h-screen mx-auto bg-white text-white text-center border-b-2 border-red-900 p-4">
-                  <div className="bg-none border-[1px] border-gray-100  h-[10rem] w-[12rem] text-black p-2 absolute right-0 mt-10 mr-24 grid grid-rows-3 justify-center items-center">
+                  <div
+                      className="bg-none border-[1px] border-gray-100  h-[10rem] w-[12rem] text-black p-2 absolute right-0 mt-10 mr-24 grid grid-rows-3 justify-center items-center">
                       <div className="w-full border-b-[1px] border-black">
                           <button>
                               Make
@@ -38,7 +39,8 @@ export default function Home() {
 
                   </div>
                   <div className="flex col-span-4 gap-12 mx-auto justify-start items-start">
-                      <div className="bg-none border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-72 mt-8">
+                      <div
+                          className="bg-none border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-72 mt-8">
                           <Image src={carplaceholder1} alt="Car placeholder image"
                                  className="h-64 w-72 rounded-t-3xl rounded-b-none"/>
                           <span className="text-black p-2">Car title in this spot</span>
@@ -101,6 +103,9 @@ export default function Home() {
                           </span>
                       </div>
                   </div>
+                  <button className="text-black flex justify-end items-end">
+                      See all
+                  </button>
               </div>
           </div>
 
