@@ -19,15 +19,23 @@ export default function Home() {
 
               <div className="h-screen mx-auto bg-white text-white text-center border-b-2 border-red-900 p-4">
                   <div className="bg-none border-[1px] border-gray-100  h-[10rem] w-[12rem] text-black p-2 absolute right-0 mt-10 mr-24 grid grid-rows-3 justify-center items-center">
-                      <button>
-                          Make
-                      </button>
-                      <button>
-                          Model
-                      </button>
-                      <button>
-                          Price
-                      </button>
+                      <div className="w-full border-b-[1px] border-black">
+                          <button>
+                              Make
+                          </button>
+                      </div>
+                      <div>
+                          <button>
+                              Model
+                          </button>
+                      </div>
+                      <div>
+                          <button>
+                              Price
+                          </button>
+                      </div>
+
+
                   </div>
                   <div className="flex col-span-4 gap-12 mx-auto justify-start items-start">
                       <div className="bg-none border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-72 mt-8">
