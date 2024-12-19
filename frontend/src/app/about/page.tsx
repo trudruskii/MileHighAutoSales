@@ -14,6 +14,11 @@ export default function About(){
                 <Image src={ownerplaceholder} alt="Place holder for owner"
                        className="h-56 w-52 rounded-xl items-end"></Image>
             </div>
+            <div>
+                <p className="text-black text-lg text-center">
+                    Add contact information for this company. Established date/year. Additional services offered by company. Disclaimer.
+                </p>
+            </div>
         </>
     )
 }
