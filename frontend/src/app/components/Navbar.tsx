@@ -43,7 +43,7 @@ export default function Navbarz() {
             </div>
 
             <div className="bg-black border-t-gray-400 border-b-gray-400 border-l-red-900 border-r-red-900 border-t-[1px] border-b-[1px] border-l-[3px] border-r-[3px] w-full h-36 flex justify-between items-center">
-                <h1 className="text-white text-[8rem] ml-[27rem]">
+                <h1 className="text-white text-[8rem] ml-[20rem]">
                     Mile High Auto Sales
                 </h1>
                 {/*animate-pulseText*/}
@@ -51,8 +51,8 @@ export default function Navbarz() {
                     <Image src={mapplaceholder} alt="Map placeholder image" className="h-28 w-32 my-auto"/>
                     <div className="relative flex flex-col my-auto justify-center items-center text-gray-400">
                         <p className="mr-12 mt-4">
-                            <Link href="https://www.google.com/maps/place/2606+Bridge+Blvd+SW,+Albuquerque,+NM+87105/@35.0667321,-106.6981683,17z/data=!3m1!4b1!4m6!3m5!1s0x87220d138d6bef69:0xe0e80640b3dc0750!8m2!3d35.0667277!4d-106.695588!16s%2Fg%2F11cp9l52rt?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" className="hover:text-white">2606 Bridge Blvd SW,<br/> Albuquerque, NM 87105</Link>
-                            <br/><Link href="tel:+15056392121" className="hover:text-white">
+                            <Link href="https://www.google.com/maps/place/2606+Bridge+Blvd+SW,+Albuquerque,+NM+87105/@35.0667321,-106.6981683,17z/data=!3m1!4b1!4m6!3m5!1s0x87220d138d6bef69:0xe0e80640b3dc0750!8m2!3d35.0667277!4d-106.695588!16s%2Fg%2F11cp9l52rt?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" className=" hover:text-white">2606 Bridge Blvd SW,<br/> Albuquerque, NM 87105</Link>
+                            <br/><Link href="tel:+15056392121" className=" hover:text-white">
                             505-639-2121
                         </Link>
                         </p>

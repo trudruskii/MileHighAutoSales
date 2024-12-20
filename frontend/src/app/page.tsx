@@ -85,7 +85,7 @@ export default function Home() {
                           Car ipsum dolor sit amet steering wheel. Buggy limousine pickup truck gas powered dragster trunk. Coupe supercar fuel engine fuel gauge spider gasoline. Drive luxury car race car lane expressway microcar. Navigation stock car cross-over vehicle station wagon suspension street. Taxi automobile tailgate windshield suspension sunroof windscreen gear. Auto torque radio solar powered electric engine roadster pickup truck wing mirror solar powered. Minivan hatchback roadster hatchback blinker gas-electric bus seat belt brake light.
                       </p>
                   </div>
-                  <div className="absolute right-10 bottom-20 text-black border border-gray-200 rounded-lg shadow-lg w-[30rem] h-[14rem] p-4 flex flex-col justify-between">
+                  <div className="absolute right-10 bottom-20 text-black border border-gray-200 rounded-lg shadow-lg w-[30rem] h-[19rem] p-4 flex flex-col justify-between">
                       <h2 className="text-lg font-semibold">Reviews</h2>
                       <div className="flex-1 space-y-2">
                           <div className="animate-pulse flex flex-col">
