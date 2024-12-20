@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function Navbarz() {
     return (
         <>
-            <div className="bg-custom-bg bg-no-repeat border-black border-r-[3px] border-l-[3px] bg-cover pt-[520px]">
+            <div className="bg-custom-bg bg-no-repeat border-black border-r-[3px] border-l-[3px] bg-cover pt-[32.5rem]">
                 <nav
                     className="bg-black border-b-2 border-l-2 border-r-2 rounded-b-lg border-red-900 p-4 shadow-xl flex fixed top-0 w-full z-20">
                     <div className="flex justify-center items-center w-full p-4">
@@ -43,9 +43,10 @@ export default function Navbarz() {
             </div>
 
             <div className="bg-black border-t-gray-400 border-b-gray-400 border-l-red-900 border-r-red-900 border-t-[1px] border-b-[1px] border-l-[3px] border-r-[3px] w-full h-36 flex justify-between items-center">
-                <h1 className="text-red-700 text-[8rem] animate-pulseText ml-16">
+                <h1 className="text-white text-[8rem] ml-16">
                     Mile High Auto Sales
                 </h1>
+                {/*animate-pulseText*/}
                 {/*<Image src={logoplaceholder} alt="Logo placeholder image"*/}
                 {/*       className="h-32 my-auto mx-12 py-2 rounded-3xl"/>*/}
                 <div className="flex flex-row gap-10">
