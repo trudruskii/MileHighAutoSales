@@ -10,7 +10,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'custom-bg': "url('../../../public/carslineup1.jpg')",
+        'custom-bg': "url('../../../public/images/carslineup1.jpg')",
       },
       colors: {
         background: "var(--background)",

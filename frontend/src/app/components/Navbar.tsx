@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import logoplaceholder from "../../../public/logoplaceholder.png"
-import mapplaceholder from "../../../public/mapplaceholder.jpg"
+import logoplaceholder from "../../../public/images/logoplaceholder.png"
+import mapplaceholder from "../../../public/images/mapplaceholder.jpg"
 import Link from 'next/link'
 
 export default function Navbarz() {
@@ -11,21 +11,21 @@ export default function Navbarz() {
                     className="bg-black border-b-2 border-l-2 border-r-2 rounded-b-lg border-red-900 p-4 shadow-xl flex fixed top-0 w-full z-20">
                     <div className="flex justify-center items-center w-full p-4">
                         <div className="flex gap-8 text-white justify-center items-center">
-                            <button className="text-2xl hover:text-red-700">
+                            <Link href="/" className="navLinks text-4xl hover:text-red-700">
                                 Home
-                            </button>
-                            <button className="text-2xl hover:text-red-700">
+                            </Link>
+                            <Link href="/" className="navLinks text-4xl hover:text-red-700">
                                 Inventory
-                            </button>
-                            <button className="text-2xl hover:text-red-700">
+                            </Link>
+                            <Link href="/" className="navLinks text-4xl hover:text-red-700">
                                 Maintenance
-                            </button>
-                            <button className="text-2xl hover:text-red-700">
+                            </Link>
+                            <Link href="/" className="navLinks text-4xl hover:text-red-700">
                                 Reviews
-                            </button>
-                            <button className="text-2xl hover:text-red-700">
+                            </Link>
+                            <Link href="/" className="navLinks text-4xl hover:text-red-700">
                                 About Us
-                            </button>
+                            </Link>
                             <div className="absolute right-4">
                                 <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round"
                                      stroke-miterlimit="2"
@@ -35,7 +35,7 @@ export default function Navbarz() {
                                         d="m15.97 17.031c-1.479 1.238-3.384 1.985-5.461 1.985-4.697 0-8.509-3.812-8.509-8.508s3.812-8.508 8.509-8.508c4.695 0 8.508 3.812 8.508 8.508 0 2.078-.747 3.984-1.985 5.461l4.749 4.75c.146.146.219.338.219.531 0 .587-.537.75-.75.75-.192 0-.384-.073-.531-.22zm-5.461-13.53c-3.868 0-7.007 3.14-7.007 7.007s3.139 7.007 7.007 7.007c3.866 0 7.007-3.14 7.007-7.007s-3.141-7.007-7.007-7.007z"
                                         fill="currentColor"/>
                                 </svg>
-                                <span>Search Inventory</span>
+                                <span className="searchinv text-xs">Search Inventory</span>
                             </div>
                         </div>
                     </div>
@@ -43,12 +43,10 @@ export default function Navbarz() {
             </div>
 
             <div className="bg-black border-t-gray-400 border-b-gray-400 border-l-red-900 border-r-red-900 border-t-[1px] border-b-[1px] border-l-[3px] border-r-[3px] w-full h-36 flex justify-between items-center">
-                <h1 className="text-white text-[8rem] ml-16">
+                <h1 className="text-white text-[8rem] ml-[27rem]">
                     Mile High Auto Sales
                 </h1>
                 {/*animate-pulseText*/}
-                {/*<Image src={logoplaceholder} alt="Logo placeholder image"*/}
-                {/*       className="h-32 my-auto mx-12 py-2 rounded-3xl"/>*/}
                 <div className="flex flex-row gap-10">
                     <Image src={mapplaceholder} alt="Map placeholder image" className="h-28 w-32 my-auto"/>
                     <div className="relative flex flex-col my-auto justify-center items-center text-gray-400">
