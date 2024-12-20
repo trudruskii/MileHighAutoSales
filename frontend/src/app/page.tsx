@@ -8,17 +8,16 @@ export default function Home() {
   return (
       <>
           <div className="border-black border-l-[3px] border-r-[3px]">
-              <div className="flex flex-col items-start gap-4 border-t border-red-900 pt-12 pl-24">
-                  <div className="flex flex-row items-center gap-16">
-                      <form>
-                          <label>
-                              <input type="text" placeholder="Type your search query" className="border border-gray-400 rounded-xl p-1.5"/>
-                          </label>
-                      </form>
+              <div className="flex flex-col gap-4 border-t border-red-900 pt-12 pl-24">
+                  <div className="flex flex-row items-center justify-start gap-2">
+                      <label htmlFor="search-query">
+                          Search our inventory from here:
+                      </label>
+                      <input type="text" placeholder="Make, Model, Year..." className="border border-gray-400 rounded-xl p-1.5"/>
                   </div>
-                  <div className="flex flex-row items-center gap-16">
-                      <p className="text-lg">Results: Whatever result of the sort prints here.</p>
-                  </div>
+
+                      <p className="text-lg text-center mr-[28rem]">Results: Whatever result of the sort prints here.</p>
+
               </div>
 
               <div className="h-screen mx-auto bg-white text-white text-center border-b-2 border-red-900 p-4">
