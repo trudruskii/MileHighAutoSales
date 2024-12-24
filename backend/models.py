@@ -5,6 +5,7 @@ class CarListing(db.Model):
     title = db.Column(db.String(20), nullable=False)
     make = db.Column(db.String(80), nullable=False)
     model = db.Column(db.String(80), nullable=False)
+    submodel = db.Column(db.String(90), nullable=True)
     year = db.Column(db.Integer, nullable=False)
     description = db.Column(db.String(200))
     price = db.Column(db.Float, nullable=False)
