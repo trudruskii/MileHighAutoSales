@@ -13,4 +13,4 @@ class CarListing(db.Model):
     updated_at = db.Column(db.DateTime, default=db.func.current_timestamp(), onupdate=db.func.current_timestamp())
 
     def __repr__(self):
-        return f'<CarListing {self.make} {self.model} {self.year}>'
+        return f'<CarListing {self.title}{self.make} {self.model}{self.year}{self.description}{self.price}>'
