@@ -7,11 +7,15 @@ class CarListing(db.Model):
     model = db.Column(db.String(80), nullable=False)
     submodel = db.Column(db.String(90), nullable=True)
     year = db.Column(db.Integer, nullable=False)
-    description = db.Column(db.String(200))
+    mileage = db.Column(db.Integer, nullable=True)
+    vin = db.Column(db.Integer, nullable=True)
+    color = db.Column(db.String(50), nullable=True)
+    description = db.Column(db.String(200), nullable=True)
+    features = db.Column(db.string(800), nullable=True)
     price = db.Column(db.Float, nullable=False)
     image_url = db.Column(db.Text)
     created_at = db.Column(db.DateTime, default=db.func.current_timestamp())
     updated_at = db.Column(db.DateTime, default=db.func.current_timestamp(), onupdate=db.func.current_timestamp())
 
     def __repr__(self):
-        return f'<CarListing {self.title}{self.make} {self.model}{self.year}{self.description}{self.price}>'
+        return f'<CarListing {self.title}{self.mileage}{self.price}>'
