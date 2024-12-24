@@ -7,7 +7,7 @@ import carplaceholder4 from "../../public/images/car4.jpg";
 export default function Home() {
     return (
         <>
-            <div className="border-black border-l-[3px] border-r-[3px]">
+            <div className="border-black bg-gray-200 border-l-[3px] border-r-[3px]">
                 <div className="flex flex-col gap-4 border-t border-red-900 pt-12 pl-24">
                     <div className="flex flex-row items-center justify-start gap-2">
                         <label htmlFor="search-query">
@@ -19,61 +19,62 @@ export default function Home() {
                     <p className="text-lg text-center mr-[28rem]">Results: Whatever result of the sort prints here.</p>
                 </div>
 
-                <div className="bg-white text-black text-center border-b-2 border-red-900 p-4 justify-start relative ml-10">
-                    <div className="grid grid-cols-5 justify-start items-start">
-                        <div className="cols-span-1 bg-none border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] mt-8 w-80">
-                            <Image src={carplaceholder3} alt="Car placeholder image" className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
-                            <span className="text-black p-2">Car title in this spot</span>
-                            <div className="grid grid-cols-2 text-black">
-                                <span className="pl-2 text-sm">Color: BlueTemplate</span>
-                                <span className="text-sm">otherstuff stuff</span>
+                <div className="text-black text-center border-b-2 border-red-900 p-4 w-screen justify-start relative">
+                    <div className="grid grid-cols-5 justify-start items-start ml-10">
+                        <div className="cols-span-1 bg-white border-black border rounded-3xl shadow-xl flex flex-col h-[20.5rem] mt-8 w-80 pb-2">
+                            <Image src={carplaceholder3} alt="Car placeholder image"
+                                   className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
+                            <span className="p-2 text-blue-700 font-semibold">2025 Chevrolet Corvette</span>
+                            <div className="h-[.1rem] bg-red-900 m-2"></div>
+                            <div className="ml-2 text-start text-sm">
+                                <span className="font-bold">Miles:</span> <span>20,367</span>
                             </div>
-                            <span className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center">Price:<span
+                            <span className="flex justify-end text-black pr-4 font-semibold text-sm gap-2 items-center">Price:<span
                                 className="font-bold text-lg">$89,000</span></span>
                         </div>
 
-                        <div className="bg-none cols-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] mt-8 w-80">
-                            <Image src={carplaceholder4} alt="Car placeholder image" className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
-                            <span className="text-black p-2">Car title in this spot</span>
-                            <div className="grid grid-cols-2 text-black">
-                                <span className="pl-2 text-sm">Color: BlueTemplate</span>
-                                <span className="text-sm">other: stuff stuff</span>
+                        <div
+                            className="bg-white cols-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[20.5rem] mt-8 w-80">
+                            <Image src={carplaceholder4} alt="Car placeholder image"
+                                   className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
+                            <span className="p-2 text-blue-700 font-semibold">2025 Chevrolet Corvette</span>
+                            <div className="h-[.1rem] bg-red-900 m-2"></div>
+                            <div className="ml-2 text-start text-sm">
+                                <span className="font-bold">Miles:</span> <span>20,367</span>
                             </div>
-                            <span
-                                className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center">Price:
-                                    <span className="font-bold text-lg">$89,000
-                                    </span>
-                                </span>
+                            <span className="flex justify-end text-black pr-4 font-semibold text-sm gap-2 items-center">Price:<span
+                                className="font-bold text-lg">$89,000</span></span>
                         </div>
                         <div
-                            className="bg-none col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-80 mt-8">
+                            className="bg-white col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[20.5rem] w-80 mt-8">
                             <Image src={carplaceholder1} alt="Car placeholder image"
                                    className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
-                            <span className="text-black p-2">Car title in this spot</span>
-                            <div className="grid grid-cols-2 text-black">
-                                <span className="pl-2 text-sm">Color: BlueTemplate</span>
-                                <span className="text-sm">other: stuff stuff</span>
+                            <span className="p-2 text-blue-700 font-semibold">2025 Chevrolet Corvette</span>
+                            <div className="h-[.1rem] bg-red-900 m-2"></div>
+                            <div className="ml-2 text-start text-sm">
+                                <span className="font-bold">Miles:</span> <span>20,367</span>
                             </div>
-                            <span
-                                className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center"> Price:
-                              <span className="font-bold text-lg">$89,000</span></span>
+                            <span className="flex justify-end text-black pr-4 font-semibold text-sm gap-2 items-center">Price:<span
+                                className="font-bold text-lg">$89,000</span></span>
                         </div>
 
-                        <div
-                            className="bg-none col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-80 mt-8">
+                        <div className="bg-white col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[20.5rem] w-80 mt-8">
                             <Image src={carplaceholder2} alt="Car placeholder image"
                                    className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
-                            <span className="text-black p-2">Car title in this spot</span>
-                            <div className="grid grid-cols-2 text-black">
-                                <span className="pl-2 text-sm">Color: BlueTemplate</span>
-                                <span className="text-sm">other: stuff stuff</span>
+                            <span className="p-2 text-blue-700 font-semibold">2025 Chevrolet Corvette</span>
+                            <div className="h-[.1rem] bg-red-900 m-2"></div>
+                            <div className="ml-2 text-start text-sm">
+                                <span className="font-bold">Miles:</span> <span>20,367</span>
                             </div>
-                            <span
-                                className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center">Price:
-                              <span className="font-bold text-lg">$89,000</span></span>
+                            <span className="flex justify-end text-black pr-4 font-semibold text-sm gap-2 items-center">Price:<span
+                                className="font-bold text-lg">$89,000</span></span>
                         </div>
+<<<<<<< HEAD
 
                         <div className="-mt-24 border-[1px] border-gray-200 w-[22rem] h-[26rem] rounded-lg shadow-lg p-4 text-black text-start">
+=======
+                        <div className="-mt-24 border-[1px] bg-white border-gray-200 w-[22rem] h-[26rem] rounded-lg shadow-lg p-4 text-black text-start">
+>>>>>>> landing
                             <p className="font-light text-sm">
                                 Car ipsum dolor sit amet steering wheel. Buggy limousine pickup truck gas powered
                                 dragster
@@ -88,7 +89,11 @@ export default function Home() {
                             </p>
                         </div>
 
+<<<<<<< HEAD
                         <div className="col-span-1 -ml-6 mt-20 text-black border border-gray-200 rounded-2xl shadow-lg w-[22rem] h-[19rem] p-4 flex flex-col justify-between">
+=======
+                        <div className="col-span-1 bg-white text-black border border-gray-200 rounded-lg shadow-lg mt-12 w-[22rem] h-[19rem] p-4 -ml-6 flex flex-col justify-between">
+>>>>>>> landing
                             <h2 className="text-lg font-semibold">Reviews</h2>
                             <div className="flex-1 space-y-2">
                                 <div className="animate-pulse flex flex-col">
@@ -102,59 +107,19 @@ export default function Home() {
                             </div>
                             <p className="text-sm text-gray-500">Fetching reviews...</p>
                         </div>
-                        <div
-                            className="bg-none col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-80 mt-8">
-                            <Image src={carplaceholder2} alt="Car placeholder image"
+                        <div className="cols-span-1 bg-white border-black border rounded-3xl shadow-xl flex flex-col h-[20.5rem] mt-8 w-80">
+                            <Image src={carplaceholder3} alt="Car placeholder image"
                                    className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
-                            <span className="text-black p-2">Car title in this spot</span>
-                            <div className="grid grid-cols-2 text-black">
-                                <span className="pl-2 text-sm">Color: BlueTemplate</span>
-                                <span className="text-sm">other: stuff stuff</span>
+                            <span className="p-2 text-blue-700 font-semibold">2025 Chevrolet Corvette</span>
+                            <div className="h-[.1rem] bg-red-900 m-2"></div>
+                            <div className="ml-2 text-start text-sm">
+                                <span className="font-bold">Miles:</span> <span>20,367</span>
                             </div>
-                            <span
-                                className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center">Price:
-                              <span className="font-bold text-lg">$89,000</span></span>
-                        </div>
-                        <div
-                            className="bg-none col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-80 mt-8">
-                            <Image src={carplaceholder2} alt="Car placeholder image"
-                                   className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
-                            <span className="text-black p-2">Car title in this spot</span>
-                            <div className="grid grid-cols-2 text-black">
-                                <span className="pl-2 text-sm">Color: BlueTemplate</span>
-                                <span className="text-sm">other: stuff stuff</span>
-                            </div>
-                            <span
-                                className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center">Price:
-                              <span className="font-bold text-lg">$89,000</span></span>
-                        </div>
-                        <div
-                            className="bg-none col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-80 mt-8">
-                            <Image src={carplaceholder2} alt="Car placeholder image"
-                                   className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
-                            <span className="text-black p-2">Car title in this spot</span>
-                            <div className="grid grid-cols-2 text-black">
-                                <span className="pl-2 text-sm">Color: BlueTemplate</span>
-                                <span className="text-sm">other: stuff stuff</span>
-                            </div>
-                            <span
-                                className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center">Price:
-                              <span className="font-bold text-lg">$89,000</span></span>
-                        </div>
-                        <div
-                            className="bg-none col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-80 mt-8">
-                            <Image src={carplaceholder2} alt="Car placeholder image"
-                                   className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
-                            <span className="text-black p-2">Car title in this spot</span>
-                            <div className="grid grid-cols-2 text-black">
-                                <span className="pl-2 text-sm">Color: BlueTemplate</span>
-                                <span className="text-sm">other: stuff stuff</span>
-                            </div>
-                            <span
-                                className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center">Price:
-                              <span className="font-bold text-lg">$89,000</span></span>
+                            <span className="flex justify-end text-black pr-4 font-semibold text-sm gap-2 items-center">Price:<span
+                                className="font-bold text-lg">$89,000</span></span>
                         </div>
 
+<<<<<<< HEAD
                         <div className="bg-none col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-80 mt-8">
                             <Image src={carplaceholder2} alt="Car placeholder image" className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
                             <span className="text-black p-2">Car title in this spot</span>
@@ -204,11 +169,99 @@ export default function Home() {
                             </div>
                             <span className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center">Price:
                               <span className="font-bold text-lg">$89,000</span></span>
+=======
+                        <div className="bg-white cols-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[20.5rem] mt-8 w-80">
+                            <Image src={carplaceholder4} alt="Car placeholder image"
+                                   className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
+                            <span className="p-2 text-blue-700 font-semibold">2025 Chevrolet Corvette</span>
+                            <div className="h-[.1rem] bg-red-900 m-2"></div>
+                            <div className="ml-2 text-start text-sm">
+                                <span className="font-bold">Miles:</span> <span>20,367</span>
+                            </div>
+                            <span className="flex justify-end text-black pr-4 font-semibold text-sm gap-2 items-center">Price:<span
+                                className="font-bold text-lg">$89,000</span></span>
+                        </div>
+                        <div className="bg-white col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[20.5rem] w-80 mt-8">
+                            <Image src={carplaceholder1} alt="Car placeholder image"
+                                   className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
+                            <span className="p-2 text-blue-700 font-semibold">2025 Chevrolet Corvette</span>
+                            <div className="h-[.1rem] bg-red-900 m-2"></div>
+                            <div className="ml-2 text-start text-sm">
+                                <span className="font-bold">Miles:</span> <span>20,367</span>
+                            </div>
+                            <span className="flex justify-end text-black pr-4 font-semibold text-sm gap-2 items-center">Price:<span
+                                className="font-bold text-lg">$89,000</span></span>
+>>>>>>> landing
                         </div>
 
+                        <div className="bg-white col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[20.5rem] w-80 mt-8">
+                            <Image src={carplaceholder2} alt="Car placeholder image"
+                                   className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
+                            <span className="p-2 text-blue-700 font-semibold">2025 Chevrolet Corvette</span>
+                            <div className="h-[.1rem] bg-red-900 m-2"></div>
+                            <div className="ml-2 text-start text-sm">
+                                <span className="font-bold">Miles:</span> <span>20,367</span>
+                            </div>
+                            <span className="flex justify-end text-black pr-4 font-semibold text-sm gap-2 items-center">Price:<span
+                                className="font-bold text-lg">$89,000</span></span>
+                        </div>
 
+                        <div className="cols-span-1 bg-white border-black border rounded-3xl shadow-xl flex flex-col h-[20.5rem] mt-8 w-80">
+                            <Image src={carplaceholder3} alt="Car placeholder image"
+                                   className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
+                            <span className="p-2 text-blue-700 font-semibold">2025 Chevrolet Corvette</span>
+                            <div className="h-[.1rem] bg-red-900 m-2"></div>
+                            <div className="ml-2 text-start text-sm">
+                                <span className="font-bold">Miles:</span> <span>20,367</span>
+                            </div>
+                            <span className="flex justify-end text-black pr-4 font-semibold text-sm gap-2 items-center">Price:<span
+                                className="font-bold text-lg">$89,000</span></span>
+                        </div>
+
+                        <div className="bg-white cols-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[20.5rem] mt-8 w-80">
+                            <Image src={carplaceholder4} alt="Car placeholder image"
+                                   className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
+                            <span className="p-2 text-blue-700 font-semibold">2025 Chevrolet Corvette</span>
+                            <div className="h-[.1rem] bg-red-900 m-2"></div>
+                            <div className="ml-2 text-start text-sm">
+                                <span className="font-bold">Miles:</span> <span>20,367</span>
+                            </div>
+                            <span className="flex justify-end text-black pr-4 font-semibold text-sm gap-2 items-center">Price:<span
+                                className="font-bold text-lg">$89,000</span></span>
+                        </div>
+                        <div className="bg-white col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[20.5rem] w-80 mt-8">
+                            <Image src={carplaceholder1} alt="Car placeholder image" className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
+                            <span className="p-2 text-blue-700 font-semibold">2025 Chevrolet Corvette</span>
+                            <div className="h-[.1rem] bg-red-900 m-2"></div>
+                            <div className="ml-2 text-start text-sm">
+                                <span className="font-bold">Miles:</span> <span>20,367</span>
+                            </div>
+                            <span className="flex justify-end text-black pr-4 font-semibold text-sm gap-2 items-center">Price:<span
+                                className="font-bold text-lg">$89,000</span></span>
+                        </div>
+
+                        <div className="bg-white col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[20.5rem] w-80 mt-8">
+                            <Image src={carplaceholder2} alt="Car placeholder image" className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
+                            <span className="p-2 text-blue-700 font-semibold">2025 Chevrolet Corvette</span>
+                            <div className="h-[.1rem] bg-red-900 m-2"></div>
+                            <div className="ml-2 text-start text-sm">
+                                <span className="font-bold">Miles:</span> <span>20,367</span>
+                            </div>
+                            <span className="flex justify-end text-black pr-4 font-semibold text-sm gap-2 items-center">Price:<span
+                                className="font-bold text-lg">$89,000</span></span>
+                        </div>
+                        <div className="cols-span-1 bg-white border-black border rounded-3xl shadow-xl flex flex-col h-[20.5rem] mt-8 w-80">
+                            <Image src={carplaceholder3} alt="Car placeholder image" className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
+                            <span className="p-2 text-blue-700 font-semibold">2025 Chevrolet Corvette</span>
+                            <div className="h-[.1rem] bg-red-900 m-2"></div>
+                            <div className="ml-2 text-start text-sm">
+                                <span className="font-bold">Miles:</span> <span>20,367</span>
+                            </div>
+                            <span className="flex justify-end text-black pr-4 font-semibold text-sm gap-2 items-center">Price:<span
+                                className="font-bold text-lg">$89,000</span></span>
+                        </div>
                     </div>
-
+                    <div className="p-20"></div>
                 </div>
             </div>
         </>
