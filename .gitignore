@@ -1,11 +1,36 @@
+#OS specific files
 .DS_Store
-/.idea
+
+#Modules (react dependencies)
 /node_modules/
 .node_modules
 .next/
 .next
 *.next
-*.log
+
+#environmental files
 .env
 .env.local
 .env.*.local
+venv/
+
+
+#Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#Flask-related files (e.g., SQLite database)
+*.db
+*.h2.db
+*.sqlite3
+
+#IDE-specific files
+.vscode/
+/.idea
+
+#logs
+*.log
+
+

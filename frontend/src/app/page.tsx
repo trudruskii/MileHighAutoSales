@@ -73,8 +73,7 @@ export default function Home() {
                               <span className="font-bold text-lg">$89,000</span></span>
                         </div>
 
-                        <div
-                            className="-mt-24 border-[1px] border-gray-200 w-[22rem] h-[26rem] rounded-lg shadow-lg p-4 text-black text-start">
+                        <div className="-mt-24 border-[1px] border-gray-200 w-[22rem] h-[26rem] rounded-lg shadow-lg p-4 text-black text-start">
                             <p className="font-light text-sm">
                                 Car ipsum dolor sit amet steering wheel. Buggy limousine pickup truck gas powered
                                 dragster
@@ -89,8 +88,7 @@ export default function Home() {
                             </p>
                         </div>
 
-                        <div
-                            className="col-span-1 -ml-10 text-black border border-gray-200 rounded-lg shadow-lg mt-10 w-[22rem] h-[19rem] p-4 flex flex-col justify-between">
+                        <div className="col-span-1 -ml-6 mt-20 text-black border border-gray-200 rounded-2xl shadow-lg w-[22rem] h-[19rem] p-4 flex flex-col justify-between">
                             <h2 className="text-lg font-semibold">Reviews</h2>
                             <div className="flex-1 space-y-2">
                                 <div className="animate-pulse flex flex-col">
@@ -157,69 +155,54 @@ export default function Home() {
                               <span className="font-bold text-lg">$89,000</span></span>
                         </div>
 
-                        <div
-                            className="bg-none col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-80 mt-8">
-                            <Image src={carplaceholder2} alt="Car placeholder image"
-                                   className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
+                        <div className="bg-none col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-80 mt-8">
+                            <Image src={carplaceholder2} alt="Car placeholder image" className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
                             <span className="text-black p-2">Car title in this spot</span>
                             <div className="grid grid-cols-2 text-black">
                                 <span className="pl-2 text-sm">Color: BlueTemplate</span>
                                 <span className="text-sm">other: stuff stuff</span>
                             </div>
-                            <span
-                                className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center">Price:
+                            <span className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center">Price:
                               <span className="font-bold text-lg">$89,000</span></span>
                         </div>
-                        <div
-                            className="bg-none col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-80 mt-8">
-                            <Image src={carplaceholder2} alt="Car placeholder image"
-                                   className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
+                        <div className="bg-none col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-80 mt-8">
+                            <Image src={carplaceholder2} alt="Car placeholder image" className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
                             <span className="text-black p-2">Car title in this spot</span>
                             <div className="grid grid-cols-2 text-black">
                                 <span className="pl-2 text-sm">Color: BlueTemplate</span>
                                 <span className="text-sm">other: stuff stuff</span>
                             </div>
-                            <span
-                                className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center">Price:
+                            <span className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center">Price:
                               <span className="font-bold text-lg">$89,000</span></span>
                         </div>
-                        <div
-                            className="bg-none col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-80 mt-8">
-                            <Image src={carplaceholder2} alt="Car placeholder image"
-                                   className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
+                        <div className="bg-none col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-80 mt-8">
+                            <Image src={carplaceholder2} alt="Car placeholder image" className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
                             <span className="text-black p-2">Car title in this spot</span>
                             <div className="grid grid-cols-2 text-black">
                                 <span className="pl-2 text-sm">Color: BlueTemplate</span>
                                 <span className="text-sm">other: stuff stuff</span>
                             </div>
-                            <span
-                                className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center">Price:
+                            <span className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center">Price:
                               <span className="font-bold text-lg">$89,000</span></span>
                         </div>
-                        <div
-                            className="bg-none col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-80 mt-8">
-                            <Image src={carplaceholder2} alt="Car placeholder image"
-                                   className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
+                        <div className="bg-none col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-80 mt-8">
+                            <Image src={carplaceholder2} alt="Car placeholder image" className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
                             <span className="text-black p-2">Car title in this spot</span>
                             <div className="grid grid-cols-2 text-black">
                                 <span className="pl-2 text-sm">Color: BlueTemplate</span>
                                 <span className="text-sm">other: stuff stuff</span>
                             </div>
-                            <span
-                                className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center">Price:
+                            <span className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center">Price:
                               <span className="font-bold text-lg">$89,000</span></span>
                         </div>
-                        <div
-                            className="bg-none col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-80 mt-8">
-                            <Image src={carplaceholder2} alt="Car placeholder image"
-                                   className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
+                        <div className="bg-none col-span-1 border-black border rounded-3xl shadow-xl flex flex-col h-[25.5rem] w-80 mt-8">
+                            <Image src={carplaceholder2} alt="Car placeholder image" className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
                             <span className="text-black p-2">Car title in this spot</span>
                             <div className="grid grid-cols-2 text-black">
                                 <span className="pl-2 text-sm">Color: BlueTemplate</span>
                                 <span className="text-sm">other: stuff stuff</span>
                             </div>
-                            <span
-                                className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center">Price:
+                            <span className="flex justify-end text-black mt-10 pr-4 font-semibold text-sm gap-2 items-center">Price:
                               <span className="font-bold text-lg">$89,000</span></span>
                         </div>
 

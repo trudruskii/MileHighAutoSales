@@ -1,0 +1,31 @@
+Users Table:
+    user_id (Primary Key)
+    username (Unique)
+    email
+    password (Encrypted)
+    created_at (Timestamp)
+
+Listings Table:
+    listing_id (Primary Key)
+    user_id (Foreign Key referencing Users table)
+    title (Title of the listing)
+    description (Description of the car)
+    make (Brand of the car)
+    model (Model of the car)
+    year (Year of the car)
+    price (Price of the car)
+    created_at (Timestamp of when the listing was created)
+    image_url (This could be the file path to the car image, or the URL if using a service)
+
+Images Table:
+    image_id (Primary Key)
+    listing_id (Foreign Key referencing Listings)
+    image_url (URL or path to the image)
+    uploaded_at (Timestamp)
+
+Categories Table:
+    category_id (Primary Key)
+    name (Name of the category)
+
+
+
