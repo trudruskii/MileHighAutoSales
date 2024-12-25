@@ -2,7 +2,7 @@ export default function(){
     return(
         <>
             <div className="flex">
-                <div className="bg-gray-800 fixed left-0 mt-1 w-92 flex flex-col gap-4 justify-center px-2">
+                <div className="fixed left-0 z-0 h-screen w-92 rounded-lg px-2 ml-1 bg-white border-[1px] border-black flex flex-col justify-start gap-4 ">
                     <span className="text-center">Quick Connect</span>
                     <form>
                         <label htmlFor="username">Username:</label>
