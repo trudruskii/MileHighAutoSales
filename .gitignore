@@ -1,11 +1,45 @@
+#Operating system related
 .DS_Store
-/.idea
+/.idea/
+Thumbs.db
+
+#npm packages/libraies
 /node_modules/
+*/node_modules
+node_modules
 .node_modules
 .next/
-.next
-*.next
+/.next/
+*/.next
+
+next-env.d.ts
+
+
+#log files
 *.log
+
+#environmental files
+env/
 .env
 .env.local
 .env.*.local
+
+#Python/Flask Environmental
+venv/
+.venv/
+instance/
+
+#Python/Flask
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#IDEs and editors
+.vscode/
+*.swp
+.swo
+
+#Database files
+*.db
+*.sqlite

@@ -2,6 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'rrf';
+  src: url('../../../public/fonts/RoadRage-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'trf';
+  src: url('../../../public/fonts/Turret_Road/TurretRoad-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'trf';
+  src: url('../../../public/fonts/Turret_Road/TurretRoad-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'trf';
+  src: url('../../../public/fonts/Turret_Road/TurretRoad-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'cdf';
+  src: url('../../../public/fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: rrf, sans-serif;
+}
+
+.navLinks {
+  font-family: trf, sans-serif;
+}
+
+.searchinv {
+  font-family: cdf, sans-serif;
 }
