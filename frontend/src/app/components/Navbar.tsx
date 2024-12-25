@@ -16,9 +16,6 @@ export default function Navbarz() {
                                 Inventory
                             </Link>
                             <Link href="/" className="navLinks text-4xl hover:text-red-700">
-                                Maintenance
-                            </Link>
-                            <Link href="/" className="navLinks text-4xl hover:text-red-700">
                                 Reviews
                             </Link>
                             <Link href="/" className="navLinks text-4xl hover:text-red-700">
