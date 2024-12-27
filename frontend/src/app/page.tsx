@@ -204,8 +204,7 @@ export default function Home() {
                             </div>
                             <p className="text-sm text-gray-500">Fetching reviews...</p>
                         </div>
-                        <div
-                            className="cols-span-1 bg-white border-black border rounded-3xl shadow-xl flex flex-col h-[20.5rem] mt-8 w-80">
+                        <div className="cols-span-1 bg-white border-black border rounded-3xl shadow-xl flex flex-col h-[20.5rem] mt-8 w-80">
                             <Image src={carplaceholder3} alt="Car placeholder image"
                                    className="h-64 w-80 rounded-t-3xl rounded-b-none"/>
                             <span className="p-2 text-blue-700 font-semibold">2025 Chevrolet Corvette</span>
