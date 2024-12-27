@@ -1,79 +1,154 @@
 // Details for this page should include:
 // Hero Image
-// Title
-// Color
 // Specs (More specifics)
-//    Vin
-//    Transmission
-//    Cylinders
-//    Engine
 //    Mileage
-//    Doors
-//    Drive Train
-//    Interior Upholstery & Color
 //    Bluetooth, Cameras, Sensors, Alarms, Etc...
 //    Price
 // contact
 
 import Image from "next/image"
+import stagedplaceholder1 from "../../../public/images/2017-Kia-Sorento-LX-Sport-Utility-4D.jpg";
 import heroplaceholder from "../../../public/images/2017-Kia-Sorento-LX-Sport-Utility-4D-2.jpg";
+import stagedplaceholder2 from "../../../public/images/2017-Kia-Sorento-LX-Sport-Utility-4D-3.jpg";
+import stagedplaceholder3 from "../../../public/images/2017-Kia-Sorento-LX-Sport-Utility-4D-4.jpg";
+import stagedplaceholder4 from "../../../public/images/2017-Kia-Sorento-LX-Sport-Utility-4D-5.jpg";
+import stagedplaceholder5 from "../../../public/images/2017-Kia-Sorento-LX-Sport-Utility-4D-6.jpg";
+import stagedplaceholder6 from "../../../public/images/2017-Kia-Sorento-LX-Sport-Utility-4D-7.jpg";
+import stagedplaceholder7 from "../../../public/images/2017-Kia-Sorento-LX-Sport-Utility-4D-8.jpg";
+import stagedplaceholder8 from "../../../public/images/2017-Kia-Sorento-LX-Sport-Utility-4D-9.jpg";
+import mapplaceholder from "../../../public/images/mapplaceholder.jpg";
+import Link from "next/link";
+
+
 
 export default function Carmeta(){
     return(
         <>
-           <div className="flex flex-col border-[1px] border-t-[2px] border-t-red-900 border-black w-[60%] h-[35rem] bg-gray-300 rounded-md shadow-lg shadow-red-900 mx-auto mt-4 mr-4 text-red-900">
-               <h3 className="text-end pt-4 mr-4 text-2xl font-extrabold text-red-900">2017 Kia Sorento LX Sport Utility</h3>
-               <div className="grid grid-cols-2">
-                   <div className="flex flex-col ml-2 gap-2">
-                       <div className="text-lg font-[popf] font-bold text-center mt-12 mr-28 pb-1">Vehicle
+            <div className="absolute left-[7.5rem] top-[10rem] w-[30%] h-[30rem] border-[1px] border-black bg-white flex rounded-lg shadow-red-900 shadow-lg">
+                <div>
+                    <Link
+                        href="https://www.google.com/maps/place/2606+Bridge+Blvd+SW,+Albuquerque,+NM+87105/@35.0667321,-106.6981683,17z/data=!3m1!4b1!4m6!3m5!1s0x87220d138d6bef69:0xe0e80640b3dc0750!8m2!3d35.0667277!4d-106.695588!16s%2Fg%2F11cp9l52rt?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+                        className=" hover:text-white">2606 Bridge Blvd SW,<br/> Albuquerque, NM 87105</Link>
+                    <br/><Link href="tel:+15056392121" className=" hover:text-white">
+                    505-639-2121
+                </Link>
+                </div>
+                <div className="flex flex-grow text-3xl justify-center items-center">
+                    <Image src={mapplaceholder} alt="Hero car placeholder image"
+                           className="border-l-[3px] border-l-red-900 border-b-[1px] border-b-black h-[10rem] w-[10rem] rounded-l-lg rounded-b-lg"/>
+                </div>
+            </div>
+           <div className="flex flex-col border-[1px] border-t-[2px] border-t-red-900 border-black w-[60%] h-[35rem] bg-black rounded-md shadow-lg shadow-red-900 mx-auto mt-4 mr-4">
+               <h3 className="text-end pt-4 mr-4 text-2xl font-extrabold text-white">2017 Kia Sorento LX Sport Utility</h3>
+               <div className="flex flex-wrap justify-between">
+                   <div className="flex flex-col px-6 gap-2">
+                       <div className="text-lg font-[popf] font-bold text-white text-center mt-12 pb-1 ">Vehicle
                            Specifications
                        </div>
-                       <div className="h-[.08rem] w-[11.5rem] bg-black ml-[10.5rem] -mt-2"></div>
-                       <ul className="flex flex-wrap justify-start items-start">
-                           <li className="text-left text-sm font-semibold">
-                               Color: <span className="font-light"> White</span>
-                           </li>
-                       </ul>
-                       <ul className="flex flex-wrap justify-start items-start">
-                           <li className="text-left text-sm font-semibold">
-                               Interior:<span className="font-light"> Fabric</span>
-                           </li>
-                       </ul>
-                       <ul className="flex flex-wrap justify-start items-start">
-                           <li className="text-left text-sm font-semibold">
-                               Interior Color:<span className="font-light"> Black</span>
-                           </li>
-                       </ul>
-                       <ul className="flex flex-wrap justify-start items-start">
-                           <li className="text-left text-sm font-semibold">
-                               Doors:<span className="font-light"> 4</span>
-                           </li>
-                       </ul>
-                       <ul className="flex flex-wrap justify-start items-start">
-                           <li className="text-left text-sm font-semibold">
-                               Engine: <span className="font-light">2.4L V4</span>
-                           </li>
-                       </ul>
-                       <ul className="flex flex-wrap justify-start items-start">
-                           <li className="text-left text-sm font-semibold">
-                               Transmission:<span className="font-light "> Automatic</span>
-                           </li>
-                       </ul>
-                       <ul className="flex flex-wrap justify-start items-start">
-                           <li className="text-left text-sm font-semibold">
-                               Drive Train:<span className="font-light"> FWD</span>
-                           </li>
-                       </ul>
-                       <span className="flex-grow text-sm font-[popf]">some words can go right here if I want them to and what</span>
+                       <div className="h-[.08rem] w-[24rem] bg-red-900 -mt-2"></div>
+                       <div className="grid grid-cols-2 mt-3">
+                           <ul className="flex flex-wrap justify-start items-start text-white">
+                               <li className="text-left text-sm font-semibold">
+                                   Interior:<span className="font-light"> Fabric</span>
+                               </li>
+                           </ul>
+                           <ul className="flex flex-wrap justify-start items-start text-white">
+                               <li className="text-left text-xs font-semibold">
+                                   Interior Color:<span className="font-light"> Black</span>
+                               </li>
+                           </ul>
+                       </div>
+                       <div className="grid grid-cols-2">
+                           <ul className="flex flex-wrap justify-start items-start text-white">
+                               <li className="text-left text-sm font-semibold">
+                                   Color: <span className="font-light"> White</span>
+                               </li>
+                           </ul>
+                           <ul className="flex flex-wrap justify-start items-start text-white">
+                               <li className="text-left text-sm font-semibold">
+                                   Doors:<span className="font-light"> 4</span>
+                               </li>
+                           </ul>
+                       </div>
+                       <div className="grid grid-cols-2">
+                           <ul className="flex flex-wrap justify-start items-start text-white">
+                               <li className="text-left text-sm font-semibold">
+                                   Engine: <span className="font-light">2.4L V4</span>
+                               </li>
+                           </ul>
+                           <ul className="flex flex-wrap justify-start items-start text-white">
+                               <li className="text-left text-sm font-semibold">
+                                   Transmission:<span className="font-light "> Automatic</span>
+                               </li>
+                           </ul>
+                       </div>
+                       <div className="grid grid-cols-2">
+                           <ul className="flex flex-wrap justify-start items-start text-white">
+                               <li className="text-left text-sm font-semibold">
+                                   Drive Train:<span className="font-light"> FWD</span>
+                               </li>
+                           </ul>
+                           <ul className="flex flex-wrap justify-start items-start text-white">
+                               <li className="text-left text-sm font-semibold">
+                                   MPG:<span className="font-light"> 21 City, 24 Highway</span>
+                               </li>
+                           </ul>
+                       </div>
+                       <div className="grid grid-cols-2">
+                           <ul className="flex flex-wrap justify-start items-start text-white">
+                               <li className="text-left text-sm font-semibold">
+                                   VIN:<span className="font-light"> 1HGBH41JXMN109186</span>
+                               </li>
+                           </ul>
+                           <ul className="flex flex-wrap justify-start items-start text-white">
+                               <li className="text-left text-sm font-semibold">
+                                   <span className="font-light"> </span>
+                               </li>
+                           </ul>
+                       </div>
+
+                       <span className="flex-grow text-sm font-[popf] text-white">some words can go right here if I want them to and what</span>
                    </div>
                    <div className="mt-2 relative">
-                       <Image src={heroplaceholder} alt="Map placeholder image"
-                              className="border-l-[3px] border-b-[3px] border-black h-[31.4rem] w-full rounded-l-lg rounded-b-lg"/>
-                           <span className="flex justify-end items-end mr-6 -mt-[30rem] font-bold text-4xl   text-white font-[rrf]">$9,900</span>
+                       <Image src={heroplaceholder} alt="Hero car placeholder image"
+                              className="border-l-[3px] border-l-red-900 border-b-[1px] border-b-black h-[31.4rem] w-full rounded-l-lg rounded-b-lg"/>
+                       <span
+                           className="flex justify-end items-end mr-6 -mt-[30rem] font-bold text-4xl text-white font-[rrf]">$9,900</span>
                    </div>
                </div>
            </div>
-
+            <div className="h-[40rem] bg-gray-200 border-[2px] border-black border-t-red-900 border-t-[2px] shadow-red-900 shadow-lg rounded-lg mx-4 flex flex-wrap gap-2">
+                <div className="bg-black w-[2px] h-[10rem] ml-8 -mr-3"></div>
+                <Image src={stagedplaceholder1} alt="1st staged car placeholder image"
+                       className="border-l-[3px] border-l-red-900 border-b-[1px] border-b-black h-[10rem] w-[10rem] rounded-l-lg rounded-b-lg ml-2"/>
+                <div className="bg-black w-[2px] h-[10rem] ml-1 -mr-1"></div>
+                <Image src={stagedplaceholder2} alt="1st staged car placeholder image"
+                       className="border-l-[3px] border-l-red-900 border-b-[1px] border-b-black h-[10rem] w-[10rem] rounded-l-lg rounded-b-lg"/>
+                <div className="bg-black w-[2px] h-[10rem] ml-1 -mr-1"></div>
+                <Image src={stagedplaceholder3} alt="1st staged car placeholder image"
+                       className="border-l-[3px] border-l-red-900 border-b-[1px] border-b-black h-[10rem] w-[10rem] rounded-l-lg rounded-b-lg"/>
+                <div className="bg-black w-[2px] h-[10rem] ml-1 -mr-1"></div>
+                <Image src={stagedplaceholder4} alt="1st staged car placeholder image"
+                       className="border-l-[3px] border-l-red-900 border-b-[1px] border-b-black h-[10rem] w-[10rem] rounded-l-lg rounded-b-lg"/>
+                <div className="bg-black w-[2px] h-[10rem] ml-1 -mr-1"></div>
+                <Image src={stagedplaceholder5} alt="1st staged car placeholder image"
+                       className="border-l-[3px] border-l-red-900 border-b-[1px] border-b-black h-[10rem] w-[10rem] rounded-l-lg rounded-b-lg"/>
+                <div className="bg-black w-[2px] h-[10rem] ml-1 -mr-1"></div>
+                <Image src={stagedplaceholder6} alt="1st staged car placeholder image"
+                       className="border-l-[3px] border-l-red-900 border-b-[1px] border-b-black h-[10rem] w-[10rem] rounded-l-lg rounded-b-lg"/>
+                <div className="bg-black w-[2px] h-[10rem] ml-1 -mr-1"></div>
+                <Image src={stagedplaceholder7} alt="1st staged car placeholder image"
+                       className="border-l-[3px] border-l-red-900 border-b-[1px] border-b-black h-[10rem] w-[10rem] rounded-l-lg rounded-b-lg"/>
+                <div className="bg-black w-[2px] h-[10rem] ml-1 -mr-1"></div>
+                <Image src={stagedplaceholder8} alt="1st staged car placeholder image"
+                       className="border-l-[3px] border-l-red-900 border-b-[1px] border-b-black h-[10rem] w-[10rem] rounded-l-lg rounded-b-lg"/>
+                <div className="bg-black w-[2px] h-[10rem] ml-1 -mr-1"></div>
+                <Image src={stagedplaceholder8} alt="1st staged car placeholder image"
+                       className="border-l-[3px] border-l-red-900 border-b-[1px] border-b-black h-[10rem] w-[10rem] rounded-l-lg rounded-b-lg"/>
+                <div className="bg-black w-[2px] h-[10rem] ml-1 -mr-1"></div>
+                <Image src={stagedplaceholder8} alt="1st staged car placeholder image"
+                       className="border-l-[3px] border-l-red-900 border-b-[1px] border-b-black h-[10rem] w-[10rem] rounded-l-lg rounded-b-lg"/>
+            </div>
             <div className="spaceholder p-24">
 
             </div>
