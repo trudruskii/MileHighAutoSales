@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function Navbarz() {
     return (
         <>
-                <nav className="bg-black border-b-2 border-l-2 border-r-2 rounded-b-lg border-red-900 p-4 shadow-xl flex fixed top-0 w-full z-20">
+                <nav className="bg-black border-b-2 border-l-2 border-r-2 rounded-b-lg border-red-900 p-4 shadow-xl flex fixed top-0 w-full z-20 ">
                     <div className="flex justify-center items-center w-full p-4">
                         <div className="flex gap-8 text-white justify-center items-center">
                             <Link href="/" className="navLinks text-4xl hover:text-red-700">
