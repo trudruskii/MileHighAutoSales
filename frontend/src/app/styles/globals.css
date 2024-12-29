@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/*fonts*/
 @font-face {
   font-family: 'rrf';
   src: url('../../../public/fonts/RoadRage-Regular.ttf') format('truetype');
@@ -15,14 +17,12 @@
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'trf';
   src: url('../../../public/fonts/Turret_Road/TurretRoad-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'trf';
   src: url('../../../public/fonts/Turret_Road/TurretRoad-ExtraBold.ttf') format('truetype');
@@ -37,6 +37,26 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'mmf';
+  src: url('../../../public/fonts/Merriweather/Merriweather-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'mmf';
+  src: url('../../../public/fonts/Merriweather/Merriweather-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'popf';
+  src: url('../../../public/fonts/Poppins/Poppins-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 7rem;
@@ -44,6 +64,15 @@ body {
 
 h1 {
   font-family: rrf, sans-serif;
+}
+
+h3, ul, li {
+  font-family: popf, sans-serif;
+  font-weight: normal;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navLinks {
