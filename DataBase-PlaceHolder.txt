@@ -1,0 +1,306 @@
+Make columns for Cars, Trucks, SUVS, etc. for search query:
+
+
+[
+  {
+    "id": 1,
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2019,
+    "mileage": 45200,
+    "price": 18995,
+    "drive_train": "FWD",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "body_style": "Sedan",
+    "vehicle_type": "Car",
+    "color": "White",
+    "vin": "1HGCM82633A004352"
+  },
+  {
+    "id": 2,
+    "make": "Ford",
+    "model": "F-150",
+    "year": 2018,
+    "mileage": 76500,
+    "price": 23995,
+    "drive_train": "4WD",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "body_style": "Truck",
+    "vehicle_type": "Truck",
+    "color": "Black",
+    "vin": "1FTFW1EF1EKF51234"
+  },
+  {
+    "id": 3,
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2020,
+    "mileage": 30100,
+    "price": 17495,
+    "drive_train": "FWD",
+    "transmission": "CVT",
+    "fuel_type": "Gasoline",
+    "body_style": "Sedan",
+    "vehicle_type": "Car"
+    "color": "Blue",
+    "vin": "2HGFC2F69LH012345"
+  },
+  {
+    "id": 4,
+    "make": "Chevrolet",
+    "model": "Equinox",
+    "year": 2017,
+    "mileage": 88900,
+    "price": 13450,
+    "drive_train": "AWD",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "body_style": "SUV",
+    "vehicle_type": "SUV"
+    "color": "Red",
+    "vin": "3GNAXSEV0JS612345"
+  },
+  {
+    "id": 5,
+    "make": "BMW",
+    "model": "X5",
+    "year": 2021,
+    "mileage": 15500,
+    "price": 48950,
+    "drive_train": "AWD",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "body_style": "SUV",
+    "vehicle_type": "SUV"
+    "color": "Gray",
+    "vin": "5UXCR6C56M9F12345"
+  },
+  {
+    "id": 6,
+    "make": "Tesla",
+    "model": "Model 3",
+    "year": 2022,
+    "mileage": 8000,
+    "price": 39900,
+    "drive_train": "RWD",
+    "transmission": "Automatic",
+    "fuel_type": "Electric",
+    "body_style": "Sedan",
+    "vehicle_type": "Car"
+    "color": "White",
+    "vin": "5YJ3E1EA5MF123456"
+  },
+  {
+    "id": 7,
+    "make": "Subaru",
+    "model": "Outback",
+    "year": 2019,
+    "mileage": 47700,
+    "price": 22995,
+    "drive_train": "AWD",
+    "transmission": "CVT",
+    "fuel_type": "Gasoline",
+    "body_style": "Wagon",
+    "vehicle_type": "Wagon"
+    "color": "Green",
+    "vin": "4S4BSANC6K3301234"
+  },
+  {
+    "id": 8,
+    "make": "Hyundai",
+    "model": "Elantra",
+    "year": 2016,
+    "mileage": 92000,
+    "price": 9950,
+    "drive_train": "FWD",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "body_style": "Sedan",
+    "vehicle_type": "Car"
+    "color": "Silver",
+    "vin": "KMHDH4AE1GU123456"
+  },
+  {
+    "id": 9,
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2018,
+    "mileage": 60000,
+    "price": 13995,
+    "drive_train": "FWD",
+    "transmission": "CVT",
+    "fuel_type": "Gasoline",
+    "body_style": "Sedan",
+    "vehicle_type": "Car"
+    "color": "Black",
+    "vin": "1N4AL3AP6JC123456"
+  },
+  {
+    "id": 10,
+    "make": "Jeep",
+    "model": "Wrangler",
+    "year": 2020,
+    "mileage": 22000,
+    "price": 31900,
+    "drive_train": "4WD",
+    "transmission": "Manual",
+    "fuel_type": "Gasoline",
+    "body_style": "SUV",
+    "vehicle_type": "SUV"
+    "color": "Orange",
+    "vin": "1C4HJXDG1LW123456"
+  },
+  {
+    "id": 11,
+    "make": "Mazda",
+    "model": "CX-5",
+    "year": 2021,
+    "mileage": 19500,
+    "price": 25995,
+    "drive_train": "AWD",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "body_style": "SUV",
+    "vehicle_type": "SUV"
+    "color": "Red",
+    "vin": "JM3KFBCM0M0123456"
+  },
+  {
+    "id": 12,
+    "make": "Kia",
+    "model": "Sorento",
+    "year": 2017,
+    "mileage": 72000,
+    "price": 15950,
+    "drive_train": "FWD",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "body_style": "SUV",
+    "vehicle_type": "SUV"
+    "color": "White",
+    "vin": "5XYPG4A32HG123456"
+  },
+  {
+    "id": 13,
+    "make": "Volkswagen",
+    "model": "Passat",
+    "year": 2019,
+    "mileage": 54000,
+    "price": 16995,
+    "drive_train": "FWD",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "body_style": "Sedan",
+    "vehicle_type": "Car"
+    "color": "Gray",
+    "vin": "1VWAA7A31KC123456"
+  },
+  {
+    "id": 14,
+    "make": "Chevrolet",
+    "model": "Silverado 1500",
+    "year": 2020,
+    "mileage": 38000,
+    "price": 32900,
+    "drive_train": "4WD",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "body_style": "Truck",
+    "vehicle_type": "Truck"
+    "color": "Blue",
+    "vin": "1GCUYDED1LZ123456"
+  },
+  {
+    "id": 15,
+    "make": "Dodge",
+    "model": "Charger",
+    "year": 2016,
+    "mileage": 68000,
+    "price": 18950,
+    "drive_train": "RWD",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "body_style": "Sedan",
+    "vehicle_type": "Car"
+    "color": "Black",
+    "vin": "2C3CDXCT1GH123456"
+  },
+  {
+    "id": 16,
+    "make": "Toyota",
+    "model": "RAV4",
+    "year": 2018,
+    "mileage": 58000,
+    "price": 20995,
+    "drive_train": "AWD",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "body_style": "SUV",
+    "vehicle_type": "SUV"
+    "color": "Silver",
+    "vin": "2T3RFREV6JW123456"
+  },
+  {
+    "id": 17,
+    "make": "Lexus",
+    "model": "ES 350",
+    "year": 2019,
+    "mileage": 29000,
+    "price": 30950,
+    "drive_train": "FWD",
+    "transmission": "Automatic",
+    "fuel_type": "Gasoline",
+    "body_style": "Sedan",
+    "vehicle_type": "Car"
+    "color": "Beige",
+    "vin": "58ABZ1B18KU123456"
+  },
+  {
+      "id": 18,
+      "make": "Audi",
+      "model": "Q5",
+      "year": 2021,
+      "mileage": 16000,
+      "price": 41995,
+      "drive_train": "AWD",
+      "transmission": "Automatic",
+      "fuel_type": "Gasoline",
+      "body_style": "SUV",
+      "vehicle_type": "SUV"
+      "color": "Gray",
+      "vin": "WA1BNAFY5M2123456"
+    },
+    {
+      "id": 19,
+      "make": "Ford",
+      "model": "Escape",
+      "year": 2017,
+      "mileage": 83000,
+      "price": 12995,
+      "drive_train": "FWD",
+      "transmission": "Automatic",
+      "fuel_type": "Gasoline",
+      "body_style": "SUV",
+      "vehicle_type": "SUV"
+      "color": "Teal",
+      "vin": "1FMCU0GD6HUE12345"
+    },
+    {
+      "id": 20,
+      "make": "GMC",
+      "model": "Sierra 1500",
+      "year": 2020,
+      "mileage": 40000,
+      "price": 34900,
+      "drive_train": "4WD",
+      "transmission": "Automatic",
+      "fuel_type": "Diesel",
+      "body_style": "Truck",
+      "vehicle_type": "Truck"
+      "color": "Black",
+      "vin": "3GTU9CED6LG123456"
+    }
+  ]
+
